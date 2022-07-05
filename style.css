@@ -1,4 +1,7 @@
-body{
+*{
+    box-sizing: border-box;
+  }
+  body{
     margin: 0%;
 }
 
@@ -23,7 +26,8 @@ header h1{
 
 /* Main */
 main{
-    background-color: lightgrey;
+    height: 90vh;
+    background-color: rgb(246, 248, 249);
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 5%;
@@ -32,20 +36,37 @@ main{
 
 /* Sections container */
 .sections-container{
-    height: inherit;
+    height: 100%; 
     background-color: white;
     border-radius: 1%;
 }
 
-
-
-
-
-
-
-
-main{
-    height: 90vh;
+/* Nav */
+nav{
+    height: 8vh;
+    padding: 10px;
+    border-bottom: solid 5px rgb(246, 248, 249);
 }
+
+.button{
+    height: 100%;
+    display: inline-block;
+    border-radius: 5%;
+    padding: 4px;
+    font-size: auto;
+    border: solid;
+}
+
+.add-task{
+    background-color: rgb(77,174,238);
+    border-color: rgb(77,174,238);
+    color: white;
+}
+.add-section{
+    border-color: rgb(197, 203, 208);
+    color: rgb(197, 203, 208);
+}
+
+
 
 

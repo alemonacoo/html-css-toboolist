@@ -1,0 +1,37 @@
+body{
+    margin: 0%;
+}
+
+/* Header */
+header{
+    height: 10vh;
+    padding: auto;
+    position: relative;
+    
+}
+header img{
+    height: 10vh;
+}
+header h1{
+    display: inline-block;
+    margin: 0%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+
+
+
+
+
+
+
+
+
+main{
+    height: 90vh;
+}
+
+

@@ -19,9 +19,23 @@ header h1{
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-
 }
 
+/* Main */
+main{
+    background-color: lightgrey;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* Sections container */
+.sections-container{
+    height: inherit;
+    background-color: white;
+    border-radius: 1%;
+}
 
 
 

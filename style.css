@@ -3,6 +3,7 @@
   }
   body{
     margin: 0%;
+    font-family: sans-serif;
 }
 
 /* Header */
@@ -26,7 +27,7 @@ header h1{
 
 /* Main */
 main{
-    height: 90vh;
+    height: 95vh;
     background-color: rgb(246, 248, 249);
     padding-left: 10%;
     padding-right: 10%;
@@ -68,5 +69,60 @@ nav{
 }
 
 
+/* Tasks */
+.task-list-container{
+    height: 100%;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
+section h3{
+    margin: 0%;
+}
+
+.green-check{
+    color: green;
+    border: solid;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.red-cross{
+    color: red;
+    border: solid;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.type-of-task{
+    padding:5px;
+    border-radius: 10%;
+    color: white;
+    font-size: smaller;
+    margin-left: 10px;
+}
+
+.editorial{
+    background-color: rgb(77,174,238);
+}
+
+.q1-goals{
+    background-color: rgb(156,116,223);
+}
+
+.recruiting{
+    background-color: rgb(104, 191, 169);
+}
+
+.mobile{
+    background-color: rgb(240, 157, 64);
+}
+
+.sales{
+    background-color: rgb(176, 199, 56);
+}
+
+.website{
+    background-color: rgb(214, 101, 160);
+}
 

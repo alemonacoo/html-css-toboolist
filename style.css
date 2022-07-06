@@ -9,10 +9,9 @@
 /* Header */
 header{
     height: 10vh;
-    padding: auto;
-    position: relative;
-    
+    position: relative;  
 }
+
 header img{
     height: 10vh;
 }
